@@ -14,6 +14,7 @@ public class Vedoo : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
         aradakifark = transform.position - kure.transform.position;
 
         //aradaki farkı buluyoruz
