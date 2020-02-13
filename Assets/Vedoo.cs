@@ -17,12 +17,16 @@ public class Vedoo : MonoBehaviour
         aradakifark = transform.position - kure.transform.position;
 
         //aradaki farkı buluyoruz
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = kure.transform.position + aradakifark;
+
+
 
     }
 }
